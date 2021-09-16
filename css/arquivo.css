@@ -1,4 +1,14 @@
+/* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+  }
+*/
+
+
 body{
+	/*min-height: 100%;*/
 	background-color:#000000;
 }
 
@@ -13,7 +23,7 @@ body{
 
 div#interface {
 	width: 900px;
-	height: 2024px;
+	height: 2124px;
 	background-color: #ffffff;
 	margin: -20px auto 0px auto;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -62,7 +72,7 @@ header div#objetivo{
 	width: 880px;
 	margin-left: 10px;
 	margin-top: 190px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	text-align:center;		
 	font-family: arial;
 	font-size: 8;
@@ -71,7 +81,7 @@ section div#linha{
 	/*border-bottom: 3px #606060 solid;*/
 	height: 40px;
 	width: -880px;
-	margin-top: 650px;
+
 
 }
 section div#formacao{
@@ -145,7 +155,7 @@ section div#empresa{
 	font-size: 8;
 	margin-top: 0px;
 }
-section div#aperfeicoamento{
+section div#aperfeicoamento{	
 	border-bottom: 3px #606060 solid;
 	text-align:center;
 	margin-top: -5px;
@@ -157,19 +167,19 @@ section div#aperfeicoamento{
 
 }
 section div#cursos{
+	
 	text-align: left;	
 	margin-left: 10px;
 	font-family: arial;
 	font-size: 8;
-	margin-top: 0px;
+	margin-top: 10px;
 
 }
 
-.cons{
-	border-bottom: 3px #606060 solid;
+.cons{	
 	text-align:left;
-	margin-top: -5px;
-	margin-left: 10px;
+	margin-top: 15px;
+	margin-left: 15px;
 	font-family: arial;
 	font-size: 8;
 	height: 30px;
