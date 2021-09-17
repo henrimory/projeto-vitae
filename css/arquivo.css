@@ -1,198 +1,184 @@
-
-body{
-	/*min-height: 100%;*/
-	background-color:#000000;
+body {
+  /*min-height: 100%;*/
+  background-color: #000000;
 }
 
- div#imagem img{
-	 border-radius: 50%;
-	 display: block;
-	 margin-top: 20px;;
-	 margin-left: auto;
-	 margin-right: auto;	
+div#imagem img {
+  border-radius: 50%;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
- }
-
- div#whats img{
-	float: left;
-	max-width:40px;
-    max-height:40px;
-	margin-left: 120px;
-	margin-top: -26px;
-	margin-bottom: 10px;
+div#whats img {
+  float: left;
+  max-width: 40px;
+  max-height: 40px;
+  margin-left: 140px;
+  margin-top: -26px;
+  margin-bottom: 10px;
 }
 
 div#interface {
-	width: 900px;
-	height: 2250px;
-	background-color: #ffffff;
-	margin: -20px auto 0px auto;
-	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-	padding: 10px;/*Valores iguais coloca-se apenas uma vez*/
-
+  width: 900px;
+  height: 2250px;
+  background-color: #ffffff;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px; /*Valores iguais coloca-se apenas uma vez*/
 }
-header div#topo{
-	margin-top: 30px;
-	text-align: center;
-	font-family: arial;
-	font-size: 8;
+header div#topo {
+  margin-top: 30px;
+  text-align: center;
+  font-family: arial;
+  font-size: 8;
 }
-header div#dadosesq{
-	display: table;
-	float: left;
-	text-align: left;	
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	margin-top: -60px;
-	padding-bottom: 40px;
-	border-bottom: 1px #606060 solid;
-	height: 40px;
-	width: 880px;
-
+header div#dadosesq {
+  display: table;
+  float: left;
+  text-align: left;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  margin-top: -60px;
+  padding-bottom: 40px;
+  border-bottom: 1px #606060 solid;
+  height: 40px;
+  width: 880px;
 }
-header div#dadosdir{
-	display: table;
-	float: right;
-	padding-bottom: 0px;
-	text-align: center;
-	font-family: arial;
-	font-size: 8;
-	margin-top: 20px;
-	margin-right: 30px;
-	padding-top: -20px;
-	padding-bottom: 10px;
-
+header div#dadosdir {
+  display: table;
+  float: right;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: arial;
+  font-size: 8;
+  margin-top: 20px;
+  margin-right: 30px;
+  padding-top: -20px;
+  padding-bottom: 10px;
 }
 
-header div#objetivo{
-	padding-top: 25px;
-	border-bottom: 1px #606060 solid;
-	padding-bottom: 20px;
-	height: 30px;
-	width: 880px;
-	margin-left: 10px;
-	margin-top: 190px;
-	margin-bottom: 15px;
-	text-align:center;		
-	font-family: arial;
-	font-size: 8;
+header div#objetivo {
+  padding-top: 25px;
+  border-bottom: 1px #606060 solid;
+  padding-bottom: 20px;
+  height: 30px;
+  width: 880px;
+  margin-left: 10px;
+  margin-top: 190px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: arial;
+  font-size: 8;
 }
-section div#linha{
-	/*border-bottom: 3px #606060 solid;*/
-	height: 40px;
-	width: -880px;
-
-
+section div#linha {
+  /*border-bottom: 3px #606060 solid;*/
+  height: 40px;
+  width: -880px;
 }
-section div#formacao{
-	border-bottom: 3px #606060 solid;
-	text-align:center;
-	margin-top: 40px;
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
+section div#formacao {
+  border-bottom: 3px #606060 solid;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
-section div#itens1{
-
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	/*border-bottom: 3px #606060 solid;*/
-	margin-top: 0px;
-	height: 100px;
-	width: 880px;
+section div#itens1 {
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  /*border-bottom: 3px #606060 solid;*/
+  margin-top: 0px;
+  height: 100px;
+  width: 880px;
 }
 
-section div#itens2{
-
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	/*border-bottom: 3px #606060 solid;*/
-	margin-top: 0px;
-	height: 100px;
-	width: 880px;
+section div#itens2 {
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  /*border-bottom: 3px #606060 solid;*/
+  margin-top: 0px;
+  height: 100px;
+  width: 880px;
 }
 
-section div#itens3{
-
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	/*border-bottom: 3px #606060 solid;*/
-	margin-top: 0px;
-	height: 20px;
-	width: 880px;
+section div#itens3 {
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  /*border-bottom: 3px #606060 solid;*/
+  margin-top: 0px;
+  height: 20px;
+  width: 880px;
 }
 
-section div#idioma{
-	border-bottom: 3px #606060 solid;
-	text-align:center;
-	margin-top: 5px;
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
+section div#idioma {
+  border-bottom: 3px #606060 solid;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
-section div#historico{
-	border-bottom: 3px #606060 solid;
-	text-align:center;
-	margin-top: -5px;
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
-
+section div#historico {
+  border-bottom: 3px #606060 solid;
+  text-align: center;
+  margin-top: -5px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
-section div#empresa{
-	text-align: left;	
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	margin-top: 0px;
+section div#empresa {
+  text-align: left;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  margin-top: 0px;
 }
-section div#aperfeicoamento{	
-	border-bottom: 3px #606060 solid;
-	text-align:center;
-	margin-top: -5px;
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
-
+section div#aperfeicoamento {
+  border-bottom: 3px #606060 solid;
+  text-align: center;
+  margin-top: -5px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
-section div#cursos{
-	
-	text-align: left;	
-	margin-left: 10px;
-	font-family: arial;
-	font-size: 8;
-	margin-top: 10px;
-
+section div#cursos {
+  text-align: left;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 8;
+  margin-top: 10px;
 }
 
-.cons{	
-	text-align:left;
-	margin-top: 15px;
-	margin-left: 15px;
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
+.cons {
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
 
-.cons h3{
-	border-bottom: 3px #606060 solid;
-	text-align:center;
-	margin-top: -5px;	
-	font-family: arial;
-	font-size: 8;
-	height: 30px;
-	width: 880px;
+.cons h3 {
+  border-bottom: 3px #606060 solid;
+  text-align: center;
+  margin-top: -5px;
+  font-family: arial;
+  font-size: 8;
+  height: 30px;
+  width: 880px;
 }
